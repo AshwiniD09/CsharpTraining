@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+	
+  namespace Day_1
+  {
+	  
+ class Program
+{
+     static void Main(string[] args)
+	{
+		int x ,y;
+		Console.WriteLine("Enter the value of x:");
+		x=Convery.ToInt32(Console.ReadLine());
+		 Console.WriteLine("Enter the value of Y: ");
+		 y=Convery.ToInt32(Console.ReadLine());
+		 Console.WriteLine("x+y="(x+y));
+		 console.ReadLine();
+	}
+}
+  }
