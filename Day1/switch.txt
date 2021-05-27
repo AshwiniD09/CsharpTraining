@@ -1,0 +1,30 @@
+using System;
+public class Program
+{
+	public static void Main()
+	{
+	  int Number;
+	  Console.WriteLine("Enter Number");
+	Number=Convert.ToInt32(Console.ReadLine());
+      switch(Number)
+	  {
+
+    case 1:
+		 Console.WriteLine("One");
+		  break;
+	case 3:
+		 Console.WriteLine("Three");
+         break;
+	case 4:
+		Console.WriteLine("Four");
+		 break;
+    case 5:
+		 Console.WriteLine("Five");
+		  break;
+
+	default:
+		  Console.WriteLine("Please enter number inbetween 1-5"); 
+          break;
+}
+}
+}
